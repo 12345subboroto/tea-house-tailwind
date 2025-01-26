@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tea-house-tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/8298b650b3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-
+    <header class="max-w-6xl mx-auto mt-24 mb-32">
+        <div class="grid p-2 lg:grid-cols-2 items-center lg:justify-between lg:p5">
+            <div class="">
+                <h1 class="font-bold text-black text-7xl mt-2">It's good <br>tea time at The <br> Tea House</h1>
+                <p class="font-medium text-[#777777] text-xl mt-8 mb-8">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-r from-orange-500 to-orange-800 p-5 rounded-xl text-[#FFFFFF] font-bold text-xl flex gap-1 items-end ">
+                    Explore More 
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 -rotate-45">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                      </svg>    
+                </button>
+            </div>
+            <div class="relative">
+                <img src="images/banner.png" alt="">
+                <div class="flex items-center justify-center gap-2 bg-[#FFFFFF] drop-shadow-lg w-64 h-24  rounded-xl absolute left-9 -bottom-9 lg:left-12 lg:top-80">
+                    <i class="fa-solid fa-star text-yellow-600 text-3xl "></i>
+                   <div>
+                    <h3 class="text-[#1C1C1C] font-extrabold text-4xl">5.00</h3>
+                    <p class="text=[#777777] font-semibold text-xs">Trust Pilot Ratings</p>
+                   </div>
+                </div>
+            </div>
+        </div>
     </header>
     <main>
 
